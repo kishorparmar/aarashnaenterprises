@@ -1,0 +1,115 @@
+<header>
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar nav-pills navbar-dark fixed-top bg-dark navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="/home">
+                        Aarashna Enterprises
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcontent" aria-controls="navcontent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navcontent">
+                        <ul class="navbar-nav ml-auto header-nav-items">
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown dropdown-slide">
+                                <a class="nav-link" routerLink="/products" routerLinkActive="active">Products</a>
+                                <!-- <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Products
+                                <span>
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                            </a>
+                            <!-- Dropdown list
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="category.html">Category</a>
+                                <a class="dropdown-item" href="single.html">Single Page</a>
+                            </div> -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/aboutus" routerLinkActive="active">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/contactus" routerLinkActive="active">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<router-outlet></router-outlet>
+
+<footer class="footer section section-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-7 offset-md-1 offset-lg-0">
+                <div class="column-1">
+                    <!-- <img src="images/logo-footer.png" alt=""> -->
+                    <p class="alt-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-3">
+                <div class="column-2">
+                    <h4>Site Pages</h4>
+                    <ul>
+                        <li>
+                            <a routerLink="/home">Home</a>
+                        </li>
+                        <li>
+                            <a routerLink="/products">Products</a>
+                        </li>
+                        <li>
+                            <a routerLink="/aboutus">About Us</a>
+                        </li>
+                        <li>
+                            <a routerLink="/contactus">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 offset-md-1 offset-lg-0">
+                <div class="column-3">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>
+                            Sanjay Kumar(Director)
+                        </li>
+                        <li>
+                            Phone : 9788123456
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-12">
+                <div class="copyright">
+                    <p>Copyright © 2018. All Rights Reserved</p>
+                </div>
+            </div>
+            <!-- <div class="col-sm-6 col-12">
+                <ul class="social-media-icons text-right">
+                    <li>
+                        <a class="fa fa-facebook" href=""></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-twitter" href=""></a>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+</footer>
