@@ -11,10 +11,11 @@ import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { ProductsService } from './products/products.service';
-import { KeysPipe } from './products/keys.pipe';
-import { ProductDetailComponent } from './products/product-detail.component';
 import { DataService } from './data.service';
+import { Product1Component } from './products/product-1.component';
+import { Product2Component } from './products/product-2.component';
+import { Product3Component } from './products/product-3.component';
+import { Product4Component } from './products/product-4.component';
 
 
 @NgModule({
@@ -24,8 +25,10 @@ import { DataService } from './data.service';
     ProductsComponent,
     AboutComponent,
     ContactComponent,
-    KeysPipe,
-    ProductDetailComponent
+    Product1Component,
+    Product2Component,
+    Product3Component,
+    Product4Component
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,7 @@ import { DataService } from './data.service';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [ProductsService, DataService],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
